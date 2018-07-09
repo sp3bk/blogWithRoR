@@ -1,13 +1,13 @@
-<%= form_with(model: [@article, @article.comments.build], local: true) do |form| %>
-  <p>
-    <%= form.label :commenter %><br>
-    <%= form.text_field :commenter %>
-  </p>
-  <div className="indented">
-    <%= form.label :body %><br>
-    <%= form.text_area :body %>
-  </div>
-  <div class="indented">
-    <%= form.submit %>
-  </div>
-<% end %>
+<center>
+  <%= form_with(model: [@article, @article.comments.build], local: true) do |form| %>
+      <p>
+        <%= form.label :User %><br>
+        <%= form.text_field :commenter %>
+      </p>
+      <%= form.label :body %><br>
+      <%= form.text_area :body %>
+      <div>
+        <%= form.submit %>
+      </div>
+  <% end %>
+</center>

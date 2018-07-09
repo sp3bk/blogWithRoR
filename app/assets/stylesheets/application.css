@@ -11,5 +11,37 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
- *= require_self
+ *=require_self
  */
+.indented {
+  margin-left: 5%;
+}
+.indented2 {
+  margin-left: 2%;
+}
+.allArticles {
+  border-radius: 10px;
+  background-color: #00cfff;
+  border: 5px solid #00bfff;
+  width: 500px;
+  padding-bottom: 30px;
+}
+.article {
+  background-color: black;
+  border: 5px solid black;
+}
+.articleForm {
+  border-radius: 10px;
+  background-color: #00cfff;
+  border: 5px solid #00bfff;
+  width: 200px;
+}
+body {
+  margin: 42px;
+  font-family: "Verdana", "Geneva", "sans-serif";
+}
+.borderComments {
+  border-radius: 10px;
+  background-color: #00cfff;
+  border: 5px solid #00bfff;
+}
